@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap');
 body {
-  font-family: 'roboto', 'Raleway' Courier, sans-serif;
+  font-family: 'roboto';
   background-color: var(--main-color);
 }
 :root {
@@ -16,9 +16,8 @@ body {
 }
 /* inicio de la pagina de estudio webstudio */
 /* seccion header */
-.header {
+.bord {
   border-bottom: 1px solid var(--line-header);
-  background-color: var(--main-color);
 }
 .container {
   width: 1200px;
@@ -151,14 +150,9 @@ body {
 .btn-services:active {
   box-shadow: 0 12px 12px 10px rgba(0, 0, 0, 0.1);
 }
-.icons-list {
-  display: flex;
-  gap: 30px;
-}
 .icons-item {
   background-color: var(--btn-color);
   padding: 25px 100px;
-  margin-bottom: 30px;
 }
 .section {
   padding: 94px 0;
@@ -266,7 +260,6 @@ body {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  fill: var(--icons-customers);
   margin-top: 16px;
   padding-left: 0px;
 }
@@ -279,6 +272,9 @@ body {
   background-color: var(--brand-color);
   fill: var(--main-color);
   border-radius: 50%;
+}
+.social-link {
+  fill: var(--icons-customers);
 }
 .tittle-customers {
   font-family: 'roboto';
